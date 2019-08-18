@@ -30,7 +30,7 @@ public class Level3CodingExam {
 
 		assertEquals("pope francis", new VoteProcessor().calculateElectionWinner(votes));
 	}
-
+	
 	/** If neither candidate has more votes than the other, report a tie by returning the String "TIE". **/
 	@Test
 	public void testATie() {
